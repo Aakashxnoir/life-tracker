@@ -1,21 +1,2 @@
-# Dependencies
-node_modules
-
-# Build output
-dist
-
-# Environment
-.env
-.env.local
-.env.*.local
-
-# Logs
-*.log
-npm-debug.log*
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Local editor (optional — remove this line if you want to share settings)
-.vscode/
+# Cleared so the full workspace can be tracked (node_modules, dist, .vscode).
+# Note: GitHub rejects any single file over 100 MB.
