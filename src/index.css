@@ -1,0 +1,34 @@
+@config "../tailwind.config.js";
+@import "tailwindcss";
+
+body {
+  margin: 0;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.45s ease-out forwards;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.outline-text {
+  -webkit-text-stroke: 2px rgb(127 29 29);
+  paint-order: stroke fill;
+}
